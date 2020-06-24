@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country{
+    fill: #639a67;
+    stroke: #2c3e50;
+    stroke-width: 1;
+    stroke-opacity: 0.5;
+}
+.sphere{
+    fill: #4cbbb9;
+}
