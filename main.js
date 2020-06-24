@@ -2,9 +2,13 @@ import getJSON from './getJSON.js'
 
 const url = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json'
 
-const svg = d3.select('svg');
-const height = svg.attr('height');
-const width = svg.attr('width');
+
+const height = document.body.clientHeight;
+const width = document.body.clientWidth;
+
+const svg = d3.select('svg')
+    .attr('width', width)
+    .attr('height',height);
 
 const world = svg.append('g');
 
