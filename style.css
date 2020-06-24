@@ -6,11 +6,16 @@ body{
     align-items: center;
 }
 .country{
-    fill: #639a67;
-    stroke: #2c3e50;
-    stroke-width: 1;
-    stroke-opacity: 0.5;
+    fill: #009432;
+    stroke: #0652DD;
+    stroke-width: 0.1px;
+}
+.country:hover{
+    fill:#EA2027;
 }
 .sphere{
-    fill: #4cbbb9;
+    fill: #273c75;
+}
+html{
+    background: #130f40;
 }
